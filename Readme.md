@@ -1,5 +1,7 @@
 # Blue Flag Node.js Library
 
+![npm](https://img.shields.io/npm/v/blueflag)
+
 The Blue Flag Node library allows you to easily access the [Blue Flag](https://blueflag.com.au) API. It can be used by any application written in server-side javascript
 
 ## What is the Blue Flag API?
