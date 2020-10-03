@@ -16,7 +16,8 @@
     "author": "Blue Flag <info@blueflag.com.au> (https://blueflag.com.au/)",
     "license": "MIT",
     "scripts": {
-        "prepublish": "tsc"
+        "prepublish": "yarn build",
+        "build": "tsc"
     },
     "dependencies": {
         "node-fetch": "^2.6.1"
