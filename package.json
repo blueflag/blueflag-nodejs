@@ -1,0 +1,27 @@
+{
+    "name": "blueflag",
+    "version": "0.1.0",
+    "description": "Blue Flag API wrapper",
+    "keywords": [
+        "blue flag",
+        "blueflag",
+        "nevdis",
+        "car reo",
+        "vehicle api",
+        "registration data"
+    ],
+    "main": "lib/index.js",
+    "types": "dist/index.d.ts",
+    "repository": "https://github.com/blueflag/blueflag-nodejs.git",
+    "author": "Blue Flag <info@blueflag.com.au> (https://blueflag.com.au/)",
+    "license": "MIT",
+    "scripts": {
+        "prepublish": "tsc"
+    },
+    "dependencies": {
+        "node-fetch": "^2.6.1"
+    },
+    "devDependencies": {
+        "typescript": "^4.0.3"
+    }
+}
